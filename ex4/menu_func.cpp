@@ -3,9 +3,9 @@
 #include <iostream>
 
 const gsm::MenuItem* gsm::show_menu (const MenuItem* current) {
-    for (int i = 1; i < current->children_count; i++){
+    for (int i = 1; i < current->children_count; i++) {
             std::cout << current->children[i]->title << std::endl;
-        }
+    }
     std::cout << current->children[0]->title << std::endl;
     std::cout << "Выбор > ";
 
