@@ -1,6 +1,6 @@
-#include "generate.hpp"
-#include "io.hpp"
-#include "sortings.hpp"
+#include "src/generate.hpp"
+#include "src/io.hpp"
+#include "src/sortings.hpp"
 
 int main() {
     const int arr_size = gsm::io::input_user_size();
