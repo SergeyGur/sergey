@@ -5,3 +5,5 @@ lib/
 *.ii
 *.s
 *.o
+*.out
+*.app

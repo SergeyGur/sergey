@@ -18,3 +18,5 @@ set(SOURCES
 )
 
 add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES}) 
+
+add_subdirectory(tests)
