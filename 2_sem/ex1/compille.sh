@@ -1,4 +1,3 @@
-
 BUILD_FOLDER=build_ninja
 
 mkdir -p $BUILD_FOLDER
