@@ -6,3 +6,5 @@ cd $BUILD_FOLDER
 
 cmake -G Ninja ../src
 cmake --build .
+
+ctest 

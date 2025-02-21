@@ -1,8 +1,11 @@
 cmake_minimum_required(VERSION 3.31.5)
 
-project(src)
+project(project)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+
+enable_testing()
+add_subdirectory(lib/googletest)
 
 add_subdirectory(menu)
 add_subdirectory(sort)
