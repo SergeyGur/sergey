@@ -17,4 +17,4 @@ target_link_libraries(sort_test gtest gtest_main)
 include(GoogleTest)
 gtest_discover_tests(sort_test)
 
-#add_test(test test_sort)
+#add_test(test sort_test)

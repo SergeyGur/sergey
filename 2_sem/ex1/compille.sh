@@ -4,7 +4,7 @@ mkdir -p $BUILD_FOLDER
 
 cd $BUILD_FOLDER
 
-cmake -G Ninja ../src
+cmake -G Ninja ../project
 cmake --build .
 
 ctest 
